@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		209B8D691CACB7EA00A5D002 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 209B8D681CACB7EA00A5D002 /* main.m */; };
+		209B8D6C1CACB7EA00A5D002 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 209B8D6B1CACB7EA00A5D002 /* AppDelegate.m */; };
+		209B8D6F1CACB7EA00A5D002 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 209B8D6E1CACB7EA00A5D002 /* ViewController.m */; };
+		209B8D721CACB7EA00A5D002 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209B8D701CACB7EA00A5D002 /* Main.storyboard */; };
+		209B8D741CACB7EA00A5D002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209B8D731CACB7EA00A5D002 /* Assets.xcassets */; };
+		209B8D771CACB7EA00A5D002 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209B8D751CACB7EA00A5D002 /* LaunchScreen.storyboard */; };
+		209B8D871CACB93000A5D002 /* libBrightSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 209B8D861CACB93000A5D002 /* libBrightSDK.a */; };
+		209B8D8A1CACC46400A5D002 /* beaconModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 209B8D891CACC46400A5D002 /* beaconModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		209B8D641CACB7EA00A5D002 /* 三角定位-蓝牙Ibeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "三角定位-蓝牙Ibeacon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		209B8D681CACB7EA00A5D002 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		209B8D6A1CACB7EA00A5D002 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		209B8D6B1CACB7EA00A5D002 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		209B8D6D1CACB7EA00A5D002 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		209B8D6E1CACB7EA00A5D002 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		209B8D711CACB7EA00A5D002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		209B8D731CACB7EA00A5D002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		209B8D761CACB7EA00A5D002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		209B8D781CACB7EA00A5D002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		209B8D801CACB93000A5D002 /* BRTBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRTBeacon.h; sourceTree = "<group>"; };
+		209B8D811CACB93000A5D002 /* BRTBeaconDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRTBeaconDefinitions.h; sourceTree = "<group>"; };
+		209B8D821CACB93000A5D002 /* BRTBeaconManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRTBeaconManager.h; sourceTree = "<group>"; };
+		209B8D831CACB93000A5D002 /* BRTBeaconRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRTBeaconRegion.h; sourceTree = "<group>"; };
+		209B8D841CACB93000A5D002 /* BRTBeaconSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRTBeaconSDK.h; sourceTree = "<group>"; };
+		209B8D851CACB93000A5D002 /* OpenUDIDIOS7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenUDIDIOS7.h; sourceTree = "<group>"; };
+		209B8D861CACB93000A5D002 /* libBrightSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBrightSDK.a; sourceTree = "<group>"; };
+		209B8D881CACC46400A5D002 /* beaconModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = beaconModel.h; sourceTree = "<group>"; };
+		209B8D891CACC46400A5D002 /* beaconModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = beaconModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		209B8D611CACB7EA00A5D002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209B8D871CACB93000A5D002 /* libBrightSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		209B8D5B1CACB7EA00A5D002 = {
+			isa = PBXGroup;
+			children = (
+				209B8D661CACB7EA00A5D002 /* 三角定位-蓝牙Ibeacon */,
+				209B8D651CACB7EA00A5D002 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		209B8D651CACB7EA00A5D002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				209B8D641CACB7EA00A5D002 /* 三角定位-蓝牙Ibeacon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		209B8D661CACB7EA00A5D002 /* 三角定位-蓝牙Ibeacon */ = {
+			isa = PBXGroup;
+			children = (
+				209B8D7E1CACB93000A5D002 /* BrightSDK */,
+				209B8D6A1CACB7EA00A5D002 /* AppDelegate.h */,
+				209B8D6B1CACB7EA00A5D002 /* AppDelegate.m */,
+				209B8D6D1CACB7EA00A5D002 /* ViewController.h */,
+				209B8D6E1CACB7EA00A5D002 /* ViewController.m */,
+				209B8D701CACB7EA00A5D002 /* Main.storyboard */,
+				209B8D731CACB7EA00A5D002 /* Assets.xcassets */,
+				209B8D751CACB7EA00A5D002 /* LaunchScreen.storyboard */,
+				209B8D781CACB7EA00A5D002 /* Info.plist */,
+				209B8D671CACB7EA00A5D002 /* Supporting Files */,
+				209B8D881CACC46400A5D002 /* beaconModel.h */,
+				209B8D891CACC46400A5D002 /* beaconModel.m */,
+			);
+			path = "三角定位-蓝牙Ibeacon";
+			sourceTree = "<group>";
+		};
+		209B8D671CACB7EA00A5D002 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				209B8D681CACB7EA00A5D002 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		209B8D7E1CACB93000A5D002 /* BrightSDK */ = {
+			isa = PBXGroup;
+			children = (
+				209B8D7F1CACB93000A5D002 /* include */,
+				209B8D861CACB93000A5D002 /* libBrightSDK.a */,
+			);
+			path = BrightSDK;
+			sourceTree = "<group>";
+		};
+		209B8D7F1CACB93000A5D002 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				209B8D801CACB93000A5D002 /* BRTBeacon.h */,
+				209B8D811CACB93000A5D002 /* BRTBeaconDefinitions.h */,
+				209B8D821CACB93000A5D002 /* BRTBeaconManager.h */,
+				209B8D831CACB93000A5D002 /* BRTBeaconRegion.h */,
+				209B8D841CACB93000A5D002 /* BRTBeaconSDK.h */,
+				209B8D851CACB93000A5D002 /* OpenUDIDIOS7.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		209B8D631CACB7EA00A5D002 /* 三角定位-蓝牙Ibeacon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 209B8D7B1CACB7EA00A5D002 /* Build configuration list for PBXNativeTarget "三角定位-蓝牙Ibeacon" */;
+			buildPhases = (
+				209B8D601CACB7EA00A5D002 /* Sources */,
+				209B8D611CACB7EA00A5D002 /* Frameworks */,
+				209B8D621CACB7EA00A5D002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "三角定位-蓝牙Ibeacon";
+			productName = "三角定位-蓝牙Ibeacon";
+			productReference = 209B8D641CACB7EA00A5D002 /* 三角定位-蓝牙Ibeacon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		209B8D5C1CACB7EA00A5D002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "郭梁策";
+				TargetAttributes = {
+					209B8D631CACB7EA00A5D002 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8LSC4KWK3C;
+					};
+				};
+			};
+			buildConfigurationList = 209B8D5F1CACB7EA00A5D002 /* Build configuration list for PBXProject "三角定位-蓝牙Ibeacon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 209B8D5B1CACB7EA00A5D002;
+			productRefGroup = 209B8D651CACB7EA00A5D002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				209B8D631CACB7EA00A5D002 /* 三角定位-蓝牙Ibeacon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		209B8D621CACB7EA00A5D002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209B8D771CACB7EA00A5D002 /* LaunchScreen.storyboard in Resources */,
+				209B8D741CACB7EA00A5D002 /* Assets.xcassets in Resources */,
+				209B8D721CACB7EA00A5D002 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		209B8D601CACB7EA00A5D002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209B8D6F1CACB7EA00A5D002 /* ViewController.m in Sources */,
+				209B8D8A1CACC46400A5D002 /* beaconModel.m in Sources */,
+				209B8D6C1CACB7EA00A5D002 /* AppDelegate.m in Sources */,
+				209B8D691CACB7EA00A5D002 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		209B8D701CACB7EA00A5D002 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				209B8D711CACB7EA00A5D002 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		209B8D751CACB7EA00A5D002 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				209B8D761CACB7EA00A5D002 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		209B8D791CACB7EA00A5D002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		209B8D7A1CACB7EA00A5D002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		209B8D7C1CACB7EA00A5D002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "三角定位-蓝牙Ibeacon/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/三角定位-蓝牙Ibeacon/BrightSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haite.-------locaotion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		209B8D7D1CACB7EA00A5D002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "三角定位-蓝牙Ibeacon/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/三角定位-蓝牙Ibeacon/BrightSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haite.-------locaotion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		209B8D5F1CACB7EA00A5D002 /* Build configuration list for PBXProject "三角定位-蓝牙Ibeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209B8D791CACB7EA00A5D002 /* Debug */,
+				209B8D7A1CACB7EA00A5D002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		209B8D7B1CACB7EA00A5D002 /* Build configuration list for PBXNativeTarget "三角定位-蓝牙Ibeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209B8D7C1CACB7EA00A5D002 /* Debug */,
+				209B8D7D1CACB7EA00A5D002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 209B8D5C1CACB7EA00A5D002 /* Project object */;
+}
